@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="./style1.css">
+
+		<script defer src="./script1.js"></script>
+
+		<title>Temperature Converter</title>
+	</head>
+
+	<body>
+				
+		<div id="temp-conv">
+			<label for="celsius">Temp in &#176;C</label>
+			<input id="celsius-ip" type="number" onfocus="changeFocus1(1)">
+			<br>
+			
+			<label for="fahrenheit">Temp in &#176;F</label>
+			<input id="fahrenheit-ip" type="number" onfocus="changeFocus1(2)">
+			<br>
+	
+			<button id="temp-conv-btn">Convert</button>
+		</div>
+		
+		<div id="length-conv">
+			<label for="centimeter">Length in cm</label>
+			<input id="centimeter-ip" type="number" onfocus="changeFocus2(1)">
+			<br>
+			
+			<label for="meter">Length in m</label>
+			<input id="meter-ip" type="number" onfocus="changeFocus2(2)">
+			<br>
+			
+			<label for="kilometer">Length in km</label>
+			<input id="kilometer-ip" type="number" onfocus="changeFocus2(3)">
+			<br>
+	
+			<button id="length-conv-btn">Convert</button>
+		</div>
+	</body>
+</html>
